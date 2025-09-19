@@ -1,0 +1,30 @@
+.drilldown-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.drilldown-list button {
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.drilldown-list button:hover {
+  background-color: #f0f0f0;
+}
+
+.drilldown-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 1.5rem;
+  color: #4caf50;
+}

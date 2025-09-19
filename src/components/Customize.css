@@ -1,0 +1,80 @@
+.customize-container {
+    padding: 1rem;
+}
+
+.add-form {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.add-form input {
+    flex-grow: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-form button, .customize-actions button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.top-level-form {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.layout-tree {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.layout-node {
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    border-left: 2px solid #eee;
+}
+
+.node-name {
+    font-weight: bold;
+}
+
+.add-button {
+    margin-left: 0.5rem;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.options-list {
+    list-style-type: disc;
+    padding-left: 2rem;
+    margin-top: 0.5rem;
+}
+
+.node-children {
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.customize-actions {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.customize-actions .secondary {
+    background-color: transparent;
+}

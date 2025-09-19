@@ -1,0 +1,66 @@
+.journal-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.journal-form {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.journal-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Important for 100% width */
+    resize: vertical;
+}
+
+.journal-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.journal-actions button {
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.entry-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.entry-item {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.entry-timestamp {
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.entry-text {
+    margin: 0;
+    white-space: pre-wrap; /* Respect newlines */
+    word-wrap: break-word;
+}
+
+.entry-list p {
+    text-align: center;
+    margin-top: 2rem;
+    color: #666;
+}
