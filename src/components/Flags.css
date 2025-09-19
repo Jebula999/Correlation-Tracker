@@ -1,0 +1,27 @@
+.flags-container {
+    padding: 1rem;
+}
+
+.flags-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.flags-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.flag-item {
+    background-color: #fff8e1; /* A light yellow, like a sticky note */
+    border-left: 5px solid #ffc107; /* Amber color */
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-size: 1.1rem;
+    line-height: 1.5;
+}

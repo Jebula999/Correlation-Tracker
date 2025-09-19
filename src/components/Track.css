@@ -1,0 +1,48 @@
+.track-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.track-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #ccc;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.track-controls select,
+.track-controls button {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.event-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.event-item {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #eee;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.event-item:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.event-list p {
+    text-align: center;
+    margin-top: 2rem;
+    color: #666;
+}
